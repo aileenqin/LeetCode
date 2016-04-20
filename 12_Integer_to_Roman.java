@@ -26,6 +26,6 @@ public class Solution {
       return "IV" + intToRoman(num - 4);
     if(num >=1)
       return "I" + intToRoman(num - 1);
-    else return "";
+    else return " ";
   }
 }
