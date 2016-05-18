@@ -9,11 +9,11 @@
  */
 public class Solution {
     public void flatten(TreeNode root) {
-		Stack<TreeNode> stack = new Stack<TreeNode>();
-		TreeNode curt = root;
-		if (root == null) {
-			return;
-		}
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode curt = root;
+        if (root == null) {
+            return;
+        }
 		stack.push(root);
 		TreeNode prev = null;
 		while (stack.size() != 0) {
