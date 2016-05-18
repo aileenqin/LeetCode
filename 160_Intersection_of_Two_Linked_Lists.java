@@ -25,7 +25,6 @@ public class Solution {
 			len2++;
 			p2 = p2.next;
 		}
-		
 		p1 = headA;
 		p2 = headB;
 		if (len1 > len2) {
